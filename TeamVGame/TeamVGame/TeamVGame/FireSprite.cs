@@ -19,6 +19,8 @@ namespace TeamVGame
 
         private Vector2 screenSize { get; set; } //  screen size
 
+        Random rnd = new Random();
+
         public FireSprite(Texture2D newTexture, Vector2 newPosition, Vector2 newSize, int ScreenWidth, int ScreenHeight)
         {
             texture = newTexture;
@@ -34,7 +36,16 @@ namespace TeamVGame
 
         public void Move()
         {
-            
+            this.velocity *= 1;
         }
+
+        public void Populate()
+        {
+
+            position = new Vector2();
+
+        }
+
+
     }
 }

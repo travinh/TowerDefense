@@ -40,7 +40,7 @@ namespace TeamVGame
 
         }
 
-        public void P_BeAttacked (EnemySprite EnemySprite, int CurrentHealth)
+        public void P_BeAttacked (MediumEnemy EnemySprite, int CurrentHealth)
         {
             if (EnemySprite.position.X <= (this.position.X + this.size.X))
             {

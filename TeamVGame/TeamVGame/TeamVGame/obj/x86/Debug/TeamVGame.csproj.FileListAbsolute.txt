@@ -14,3 +14,10 @@ C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\
 C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\TeamVGame.exe
 C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\TeamVGame.pdb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Background.xnb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Blastoise.xnb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Bulbasaur.xnb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Charizard.xnb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Pidgey.xnb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Ratata.xnb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Fire.xnb

@@ -27,7 +27,7 @@ namespace TeamVGame
         Rectangle mainFrame;
 
         FireSprite Fire1, Fire2, Fire3;
-        EnemySprite E1, E2;
+        MediumEnemy E1, E2;
         ProtectSprite P1,P2,P3;
         
         public Game1()
@@ -78,9 +78,9 @@ namespace TeamVGame
                 graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
 
             //--Drawing Enemy Sprite--
-            E1 = new EnemySprite(Content.Load<Texture2D>("Pidgey"), new Vector2(2000f, 200f), new Vector2(200f, 200f),
+            E1 = new MediumEnemy(Content.Load<Texture2D>("Pidgey"), new Vector2(2000f, 200f), new Vector2(200f, 200f),
                graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
-            E2 = new EnemySprite(Content.Load<Texture2D>("Ratata"), new Vector2(2000f, 400f), new Vector2(200f, 200f),
+            E2 = new MediumEnemy(Content.Load<Texture2D>("Ratata"), new Vector2(2000f, 400f), new Vector2(200f, 200f),
                 graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
 
             //--Drawing Fire--
@@ -90,6 +90,7 @@ namespace TeamVGame
               graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
             Fire3 = new FireSprite(Content.Load<Texture2D>("Fire"), new Vector2(400f, 600f), new Vector2(200f, 200f),
               graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
+            E1.Populate();
         }
 
         /// <summary>
@@ -116,11 +117,14 @@ namespace TeamVGame
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
             // TODO: Add your update logic here
+            
+
             if (done == false)
             {
                 elapsed += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
@@ -143,7 +147,13 @@ namespace TeamVGame
                     elapsed = 0; //set time back to zero.
                 }
             }
+            E1.Move();
+
+
+
+            
             base.Update(gameTime);
+
         }
 
         /// <summary>
@@ -156,7 +166,19 @@ namespace TeamVGame
 
             // TODO: Add your drawing code here
 
+            spriteBatch.Begin();
+
+
+            //MediumEnemy.E_Draw(spriteBatch);
+            spriteBatch.Draw(Background, mainFrame, Color.White);
+            E1.E_Draw(spriteBatch);
+            E2.E_Draw(spriteBatch);
+           // E3.E_Draw(spriteBatch);
+            //E4.E_Draw(spriteBatch);
+
             base.Draw(gameTime);
+
+            spriteBatch.End();
         }
     }
 }

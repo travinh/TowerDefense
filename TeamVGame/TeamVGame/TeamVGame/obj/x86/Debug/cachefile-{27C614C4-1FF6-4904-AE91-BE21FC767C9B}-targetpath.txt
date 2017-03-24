@@ -1,0 +1,7 @@
+Content\Background.xnb
+Content\Blastoise.xnb
+Content\Bulbasaur.xnb
+Content\Charizard.xnb
+Content\Pidgey.xnb
+Content\Ratata.xnb
+Content\Fire.xnb
