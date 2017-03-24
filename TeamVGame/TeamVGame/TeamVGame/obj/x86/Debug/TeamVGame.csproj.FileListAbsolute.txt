@@ -1,0 +1,16 @@
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\TeamVGame.exe
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\TeamVGame.pdb
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\TeamVGame.csprojResolveAssemblyReference.cache
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\TeamVGame.exe
+C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\obj\x86\Debug\TeamVGame.pdb
