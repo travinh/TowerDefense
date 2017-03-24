@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;  //  for Vector2
 
 namespace TeamVGame
 {
-    class EnemySprite
+    class MediumEnemy
     {
         public Texture2D texture { get; set; } //  Sprite texture, read-only property
 
@@ -28,8 +28,9 @@ namespace TeamVGame
 
         public bool E_Die = false;
 
-       // public bool E_Shot = false;
+        // public bool E_Shot = false;
 
+        Random rnd = new Random();
 
 
         public int E_GetPower()
@@ -37,7 +38,7 @@ namespace TeamVGame
             return E_POWER;
         }
 
-        public EnemySprite(Texture2D newTexture, Vector2 newPosition, Vector2 newSize, int ScreenWidth, int ScreenHeight)
+        public MediumEnemy(Texture2D newTexture, Vector2 newPosition, Vector2 newSize, int ScreenWidth, int ScreenHeight)
         {
             texture = newTexture;   //Picture "name"
             position = newPosition;
@@ -67,5 +68,31 @@ namespace TeamVGame
             spriteBatch.Draw(texture, position, new Rectangle(200 * frames, 0, 200, 200), Color.White); //Adding the sprite to the batch with the rendured properties of the sprite
 
         }
+
+        public void Populate()
+        {
+
+            position = new Vector2(0f, rnd.Next(1, 6)*200);
+            velocity = new Vector2(1,0);
+        }
+
+
+        public void Move()
+        {
+            position += velocity;
+
+            if (E_Die == false)
+            {
+                velocity *= 1;
+            }
+            else if (E_Die ==true)
+            {
+                position = new Vector2(-1000, 0);
+                velocity = new Vector2(0,0);
+            }
+
+
+        }
+
     }
 }

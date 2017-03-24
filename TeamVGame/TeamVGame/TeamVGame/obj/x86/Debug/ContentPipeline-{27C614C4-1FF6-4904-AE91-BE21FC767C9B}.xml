@@ -1,6 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Background.png</Source>
+      <Name>Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Background.xnb</Output>
+      <Time>2017-03-24T15:57:16.8185-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Blastoise.png</Source>
+      <Name>Blastoise</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Blastoise.xnb</Output>
+      <Time>2017-03-24T02:58:11.6966443-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Bulbasaur.png</Source>
+      <Name>Bulbasaur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Bulbasaur.xnb</Output>
+      <Time>2017-03-24T02:58:11.6986445-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Charizard.png</Source>
+      <Name>Charizard</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Charizard.xnb</Output>
+      <Time>2017-03-24T02:58:11.6996445-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Pidgey.png</Source>
+      <Name>Pidgey</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Pidgey.xnb</Output>
+      <Time>2017-03-24T16:00:25.3692845-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ratata.png</Source>
+      <Name>Ratata</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Ratata.xnb</Output>
+      <Time>2017-03-24T16:00:25.3742848-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Fire.png</Source>
+      <Name>Fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\Fire.xnb</Output>
+      <Time>2017-03-24T03:06:58.6777859-06:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{27C614C4-1FF6-4904-AE91-BE21FC767C9B}</ContentProjectGUID>
@@ -14,6 +77,30 @@
       <OutputDirectory>C:\Users\Tran\Downloads\Game Design\TeamVGame\TeamVGame\TeamVGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
         <Value>2017-01-20T11:33:57.7670588-07:00</Value>
